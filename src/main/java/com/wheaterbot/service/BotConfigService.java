@@ -25,7 +25,7 @@ public class BotConfigService {
         return botConfigRepo.findAll().get(0).getCommands();
     }
 
-    public String getBotName() {
+    public String getBotUsername() {
         return botConfigRepo.findAll().get(0).getBotName();
     }
 
