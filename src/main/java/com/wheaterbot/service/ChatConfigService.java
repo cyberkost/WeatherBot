@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 @Service
 public class ChatConfigService {
-
     private final ChatConfigRepo chatConfigRepo;
 
     public boolean isChatInit(Long chatId) {

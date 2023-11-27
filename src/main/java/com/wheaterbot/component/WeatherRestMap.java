@@ -13,9 +13,7 @@ import java.net.URL;
 @RequiredArgsConstructor
 @Component
 public class WeatherRestMap {
-
     private final RestTemplate restTemplate;
-
     private final BotConfigService botConfigService;
 
     public WeatherNow getNowWeather(String city) {
@@ -30,8 +28,8 @@ public class WeatherRestMap {
     }
 
     public boolean isCity(String city) throws IOException {
-        URL weatherApiUrl = new URL(botConfigService.getNowApiTemp().replace("{city}", city));
-        HttpURLConnection weatherApiConnection = (HttpURLConnection) weatherApiUrl.openConnection();
+        URL weatherApiUrl = new URL(botConfigService.getNowApiTemp().replace("{city}",city));
+        HttpURLConnection weatherApiConnection = (HttpURLConnection)weatherApiUrl.openConnection();
         weatherApiConnection.setRequestMethod("GET");
         weatherApiConnection.connect();
         return weatherApiConnection.getResponseCode() == HttpURLConnection.HTTP_OK;
