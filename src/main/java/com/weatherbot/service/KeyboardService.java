@@ -1,4 +1,4 @@
-package com.wheaterbot.service;
+package com.weatherbot.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

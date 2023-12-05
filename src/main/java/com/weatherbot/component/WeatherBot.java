@@ -1,6 +1,6 @@
-package com.wheaterbot.component;
+package com.weatherbot.component;
 
-import com.wheaterbot.service.BotConfigService;
+import com.weatherbot.service.BotConfigService;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;

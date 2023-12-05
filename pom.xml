@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wheaterbot</groupId>
-    <artifactId>WheaterBot</artifactId>
+    <artifactId>WeatherBot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>WheaterBot</name>
     <description>WheaterBot</description>

@@ -1,4 +1,4 @@
-package com.wheaterbot.config;
+package com.weatherbot.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

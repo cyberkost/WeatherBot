@@ -1,8 +1,7 @@
-package com.wheaterbot.service;
+package com.weatherbot.service;
 
-import com.wheaterbot.config.BotConfig;
-import com.wheaterbot.config.Command;
-import com.wheaterbot.repository.BotConfigRepo;
+import com.weatherbot.config.BotConfig;
+import com.weatherbot.config.Command;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

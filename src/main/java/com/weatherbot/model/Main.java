@@ -1,4 +1,4 @@
-package com.wheaterbot.model;
+package com.weatherbot.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

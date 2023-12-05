@@ -1,7 +1,7 @@
-package com.wheaterbot.service;
+package com.weatherbot.service;
 
-import com.wheaterbot.component.WeatherRestMap;
-import com.wheaterbot.model.WeatherNow;
+import com.weatherbot.component.WeatherRestMap;
+import com.weatherbot.model.WeatherNow;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
