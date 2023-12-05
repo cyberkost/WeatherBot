@@ -1,8 +1,8 @@
-package com.wheaterbot.service;
+package com.weatherbot.service;
 
-import com.wheaterbot.config.ChatConfig;
-import com.wheaterbot.enums.BotState;
-import com.wheaterbot.repository.ChatConfigRepo;
+import com.weatherbot.config.ChatConfig;
+import com.weatherbot.enums.BotState;
+import com.weatherbot.repository.ChatConfigRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

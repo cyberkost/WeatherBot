@@ -1,7 +1,7 @@
-package com.wheaterbot.service;
+package com.weatherbot.service;
 
 import com.vdurmont.emoji.EmojiParser;
-import com.wheaterbot.model.WeatherNow;
+import com.weatherbot.model.WeatherNow;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

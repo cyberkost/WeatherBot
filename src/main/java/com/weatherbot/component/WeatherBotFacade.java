@@ -1,9 +1,9 @@
-package com.wheaterbot.component;
+package com.weatherbot.component;
 
-import com.wheaterbot.enums.BotState;
-import com.wheaterbot.enums.KeyboardType;
-import com.wheaterbot.enums.MainCommand;
-import com.wheaterbot.service.*;
+import com.weatherbot.enums.BotState;
+import com.weatherbot.enums.KeyboardType;
+import com.weatherbot.enums.MainCommand;
+import com.weatherbot.service.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationContext;

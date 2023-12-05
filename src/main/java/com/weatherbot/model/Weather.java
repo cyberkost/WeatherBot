@@ -1,4 +1,4 @@
-package com.wheaterbot.model;
+package com.weatherbot.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

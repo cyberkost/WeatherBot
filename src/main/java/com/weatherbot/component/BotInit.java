@@ -1,4 +1,4 @@
-package com.wheaterbot.component;
+package com.weatherbot.component;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
